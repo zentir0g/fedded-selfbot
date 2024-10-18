@@ -1,0 +1,29 @@
+# <a:black_cross:1290719895151185950> __Fedded Selfbot__ <a:black_cross:1290719895151185950>
+<a:Pin:1290719746467172506> **+autoreact <on or off> :** It will toggle on or off the autoreact.
+<a:TH_Warning:1290719763038732319> **+spam <ammount> <message> :** It will spams the message according to the given ammount.
+<a:problem:1290719776187875461> **+afk <reason> :** Sets your AFK to the given reason.
+<a:problem:1290719776187875461> **+unafk <reason> :** Unsets your AFK to the given reason.
+<a:Money:1290719795708297298> **+bal <ltc_addy> :** Gives you the LTC addy info.
+<a:imp_bluestarrr:1290719804474527794> **+av <user> :** Shows the avatar of the user.
+<a:imp_bluestarrr:1290719804474527794> **+banner <user> :** Shows the banner of the user.
+<a:problem:1290719825991307264> **+clear <ammount>** Delete the messages according to the given ammount.
+<a:problem:1290719825991307264> **+hackclear :** Sends a very long empty message.
+<:rd_VoiceIcon:1290719831968059402> **+vcjoin <channel_id> <Y or N> <Y or N> <Y or N> :** Joins the vc from the panel.
+<:rd_VoiceIcon:1290719831968059402> **+vcleave :** Leaves the vc from the panel.
+<a:problem:1290719849911423018> **+deleteallchannels :** Delete all the channels.
+<a:problem:1290719849911423018> **+deleteallroles :** Delete all the roles.
+<a:Bubble_heart:1290719864318722048> **+clone_channels <old_server_id> <new_server_id> :**Clone the channels from the old server to the new server.
+<a:Bubble_heart:1290719864318722048> **+clone_roles <old_server_id> <new_server_id> :**Clone the channels from the old server to the new server.
+<a:black_cross:1226237373440987219> **+phc <user> <comment> :** Makes the pornhub comment screenshot.
+<a:black_cross:1226237373440987219> **+iplookup < ip > :** shows the info of the IP.
+<a:001_bow_dollslit:1278954864046510180> **+math <equation> :** Solves the math for you.
+<a:insta_ggblackpearl:1290719935454253076> **+insta <username> :** Shows the info of the instagram account.
+<a:5270_hello_kitty_dance:1290719946065711316> **+cat :** Sends the random cat image.
+<a:BlackCrown:1290777108788023306> **checkpromo <promo> :** Shows you the info of the promo.
+<a:problem:1290719975786545264> **+rizz <user> :** Sends the random pickup line.
+<a:problem:1290719975786545264> **+closealldms :** Close all the dms.
+<a:problem:1290719825991307264> **+delfriends :** Remove all the friends.
+<a:h_catcensored:1290719990390980628> **+roast :** Will roast the user to whom message you replied.
+<a:problem:1290720003720483009> **+tokencheck :** Gives you the token info.
+
+<a:arrow:1290720017037393960> **Made by `z_zx` **
