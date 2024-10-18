@@ -5,6 +5,7 @@
 ## Disclaimer
 
 - SelfBot was made for Educational purposes.
+- This selfbot is made for Nitro users so if you want emojis in Help message join this [server](https://discord.com/invite/W6JfvA4y66)
 __________________________________________________
 - By using this SelfBot, you agree that you hold responsibility and accountability of any consequences caused by your actions.
 
