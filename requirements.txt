@@ -1,0 +1,13 @@
+discord.py-self
+discord
+requests
+asyncio
+json
+re
+datetime
+pickle
+os
+python-dateutil
+instaloader
+aiohttp
+dateparser
