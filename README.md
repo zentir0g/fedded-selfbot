@@ -27,7 +27,8 @@ __________________________________________________
 
 ### For PC
 - Download The ZiP
-- Open The Main Folder In That ZIP File
+- Extract the ZIP file
+- add your token to config/config.json
 - Then Type 'CMD' In The Path Of The Folder
 - Then Enter The Command: pip install -r requirements.txt
 - Then Just Enter The Command: python main.py
