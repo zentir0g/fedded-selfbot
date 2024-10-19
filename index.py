@@ -4,8 +4,8 @@ import os
 # List of packages to install
 packages = [
     "discord.py-self",
-    "discord",
     "requests",
+    "pynacl",
     "python-dateutil",
     "instaloader"
 ]
