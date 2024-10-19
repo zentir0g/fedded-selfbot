@@ -17,6 +17,7 @@ __________________________________________________
 ## ( HOW TO SETUP/START )
 
 ### For Termux
+- add your token to config/config.json
 - apt install python3
 - pkg install git
 - git clone https://github.com/zentir0g/fedded-selfbot
