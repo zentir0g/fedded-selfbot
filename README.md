@@ -22,16 +22,14 @@ __________________________________________________
 - pkg install git
 - git clone https://github.com/zentir0g/fedded-selfbot
 - cd fedded-selfbot
-- pip install -r requirements.txt
-- python main.py
+- python index.py
 
 ### For PC
 - Download The ZiP
 - Extract the ZIP file
 - add your token to config/config.json
 - Then Type 'CMD' In The Path Of The Folder
-- Then Enter The Command: pip install -r requirements.txt
-- Then Just Enter The Command: python main.py
+- Then Just Enter The Command: python index.py
 
 ## ENJOY !
 
