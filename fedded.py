@@ -604,6 +604,13 @@ async def vcjoin(ctx, channel_id: int, mute: str, deafen: str, camera: str):
         await ctx.send(f'# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **An error occurred: {e}**')
 
 @bot.command()
+async def stream(ctx, *, text):
+    await ctx.message.delete()
+    activity = discord.Streaming(name=text, url='https://www.twitch.tv/devilharisyt')
+    await bot.change_presence(activity=activity)
+    await ctx.send(f'# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Status Updated to streaming**\n`🔏` **Text :** {text}')
+
+@bot.command()
 async def vcleave(ctx):
     await ctx.message.delete()
     try:
