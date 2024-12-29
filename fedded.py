@@ -42,6 +42,9 @@ vc_join_tasks = {}
 spam_task = None
 greeting_settings = {}
 fonts_folder = "fonts"
+react_mode = False
+target_user = None
+reaction_emoji = None
 fonts = {}
 usedcodes = []
 auto_react_enabled = True
@@ -366,6 +369,17 @@ async def on_message(message):
         if message.content.endswith('?'):
             await message.add_reaction('❓') 
 
+    global react_mode, target_user, reaction_emoji
+
+    await bot.process_commands(message)  # Ensure commands are processed
+
+    if react_mode and target_user and reaction_emoji:
+        if message.author == target_user:
+            try:
+                await message.add_reaction(reaction_emoji)
+            except Exception as e:
+                print(f"Failed to react: {e}")
+            
     if not message.author.bot:
         if isinstance(message.channel, discord.DMChannel):
             if afk_reason is not None:
@@ -1149,4 +1163,33 @@ async def tokencheck(ctx, token: str):
     # Send token information in plain text format
     await ctx.send(f"{token_info}")
 
+@bot.command()
+async def react(ctx, *args):
+    global react_mode, target_user, reaction_emoji
+
+    if len(args) == 0:
+        await ctx.send("Usage: `+react <@user> <emoji>` or `+react <emoji>`.")
+        return
+
+    # Determine if the first argument is a user mention
+    if len(ctx.message.mentions) > 0:
+        target_user = ctx.message.mentions[0]
+        reaction_emoji = args[1] if len(args) > 1 else None
+    else:
+        target_user = ctx.author
+        reaction_emoji = args[0]
+
+    if not reaction_emoji:
+        await ctx.send("You must provide an emoji to react with.")
+        return
+
+    react_mode = True
+    await ctx.send(f"React mode enabled. Reacting with {reaction_emoji} to messages by {target_user.display_name}.")
+
+@bot.command()
+async def react_off(ctx):
+    global react_mode
+    react_mode = False
+    await ctx.send("React mode disabled.")
+    
 bot.run(token)
