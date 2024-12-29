@@ -26,5 +26,7 @@
 `🎁` **+delfriends :** Remove all the friends.
 `🎁` **+roast :** Will roast the user to whom message you replied.
 `🎁` **+tokencheck :** Gives you the token info.
+`🎀` **+react <user> <emoji> :** Start adding the reaction of the given emoji to all the messages of the mentioned user.
+`🎀` **+react_off:** Turn off the auto add reaction command.
 
 `🍳` **Made by `z_zx` **
