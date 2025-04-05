@@ -3,9 +3,7 @@
 ### This Selfbot has a total of about 25+ commands to make your life on discord easier. It has a nice and intuitive interface to make it easy to use for everyone, help and explanations for each command, a very complete help command.
 
 ## Discord Servers
-- https://discord.gg/fedded
-- https://discord.gg/problem
-- https://discord.com/invite/W6JfvA4y66 (Support Server)
+- https://discord.com/invite/nCyKKRAC9u (Support Server)
 
 ## Disclaimer
 
